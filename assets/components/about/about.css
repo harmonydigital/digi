@@ -1,0 +1,123 @@
+#about{
+    background-image: url('../../img/background-xs.png');
+    background-position: 0 110px;
+    background-size: 100%;
+    background-color: #FAFAFA;
+    position:relative;
+    z-index:  1;
+
+} 
+#about:before,#about::after{
+    content: "";
+    background-image: url(../../img/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 210px;
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    z-index: -1;
+
+}
+#about:before {
+    top: -95px;
+}
+#about::after {
+    bottom: -70px;
+    rotate: 180deg;
+}
+#about .container {
+    display: flex;
+    margin: 15px auto;
+    max-width: 90%;
+    width: 100%;
+    /* bottom: 0px; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3{
+    color: #440089;
+}
+
+.brain {
+    margin: 20px auto 50px;
+}
+
+#about .btn.primary {
+    background-color: #0568DD;
+    margin: 30px auto;
+}
+
+
+@media (min-width:768px) {
+
+    #about {
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-image: url(../../img/background-sm.png); 
+
+    }
+    #about:before {
+        content: "";
+        background-image: url(../../img/fundo.png); 
+        background-position: 0 0;
+        top: -140px;
+    }
+    #about::after {
+        bottom: -260px;
+        rotate: 180deg;
+        height: 260px;
+    }
+    div#about .container {
+        flex-direction: initial;
+        width:80%;
+
+    }
+    .promoter {
+        width: 300px;
+        margin-right: 0; 
+        margin-left: 10%;
+    }
+
+    div#about  .content-text {
+        min-width: 42%;
+    }
+    #about .btn.primary{
+        margin: 0;
+    }
+    
+    
+} 
+@media (min-width:1000px) {
+   
+    #about h3 {
+        font-size: 2.3rem;
+    }
+    #about::before {
+        top: -36%;
+        height: 278px;
+    }
+    .promoter {
+        width: 500px; 
+    }
+    div#about .container { 
+        width:60%;
+
+    }
+    #about::before {
+        top: -36%;
+        height: 248px;
+    }
+}
+@media (min-width:1200px) {
+    
+}
+@media (min-width:1800px) {
+  #about::before {
+    top: -45%;
+    height: 305px;
+  }
+  }
