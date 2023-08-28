@@ -11,6 +11,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 
 }
+div#modal-body h3 {
+    font-size: 17px !important;
+}
 
 header {
     position: absolute;
