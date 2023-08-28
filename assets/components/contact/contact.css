@@ -1,0 +1,61 @@
+.contact {
+    height:80vh;
+}
+input,textarea {
+    width: 80%;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 1px solid #a1a1a1;
+    margin: 5px auto;
+    display: block;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+textarea{
+ height: 100px;
+ padding-top: 15px;
+}
+.contact form {
+    position: relative;
+}
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 900;
+}
+
+
+@media (min-width:1024px){
+    .container-flex {
+        display: flex;
+        justify-content: space-between;
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    div#contact .container-flex > div:first-child {
+        width: 50%;
+    }
+    div#contact .container-flex > div:last-child {
+        width: 40%;
+        padding: 80px 0 0;
+    }   
+    h2 {
+        
+        text-align: left;
+      
+    }
+    .contact h4 {
+        
+        text-align: left;
+        font-size: 1.9rem;
+      
+    }
+    input,textarea {
+        margin: 10px 0;
+        width: 100% ;
+    }
+}

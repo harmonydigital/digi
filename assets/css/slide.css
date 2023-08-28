@@ -1,0 +1,164 @@
+ 
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  .slide {
+    height: 70vh;
+    margin: 15px auto;
+}
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+   border-radius: 20px;
+
+  }
+   
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 10px;
+   transform: scale(0.9) !important; 
+   transition: .3s;
+   
+
+  }
+
+
+  @media(max-width:767px) {
+    .swiper-slide {
+  
+     transform: scale(0.9) !important; 
+     transition: .3s;
+     
+  
+    }
+    .swiper-slide:hover  {
+      transform: scale(1.2) !important; 
+     transition: .2s;
+  
+  
+    }
+  
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   border-radius: 10px;
+
+  }
+  .swiper-slide:hover .overlaygallery{
+    display: block;
+  }
+
+
+  @media(min-width:1200px){
+   .slide {
+      height: 90vh;
+  }
+  }
+
+  @media (min-width:768px){
+    .slide {
+      height: 85vh; 
+  }
+  .swiper-slide {
+  
+    transform: scale(1) !important; 
+    transition: .3s;
+    cursor: pointer;
+ 
+   }
+   .swiper-slide:hover {
+  
+    transform: scale(1.1) !important; 
+    transition: .2s;
+    z-index: 999 !important;
+    
+ 
+   }
+  }
+
+  @media (min-width:1200px){
+    .slide {
+      height: 90vh; 
+      margin: 0 ;
+  }
+  }
+
+  .overlaygallery {
+    background: #000000c7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    border-radius: 10px;
+    /* display:block; */
+    /* background-image: linear-gradient(to right top, #a5e4fd, #f3b9e6); */
+    background-image: linear-gradient(238deg, transparent,  #07070cab);
+    transform: scaleY(0);
+     transition: 1s;
+     top:100%
+
+}
+.swiper-slide:hover .overlaygallery {
+
+  transform: scaleY(1);
+  transition: .5s;
+  top:0%
+
+
+}
+.overlaygallery .text-content {
+  position: fixed;
+  bottom: 20px;
+  margin: 50px 35px; 
+  display: flex;
+}
+.overlaygallery .text-content div {
+  margin-left: 18px;
+}
+.overlaygallery .text-content span:first-child {
+font-size: 1rem;
+margin-top: 8px;
+}
+.overlaygallery .text-content span:last-child {
+  font-size: .8rem;
+margin-top:40px;
+
+  }
+.overlaygallery .text-content h4 {
+  font-size: .9rem;
+  margin: 5px 0;
+  text-transform: uppercase;
+
+}
+.overlaygallery .text-content p {
+  font-size: .8rem;
+  margin: 5px 0;
+  padding: 5px 0;
+}
+.overlaygallery p,.overlaygallery  h4 {
+  text-align: left !important;
+ 
+}

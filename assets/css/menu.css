@@ -1,0 +1,37 @@
+ 
+
+.menu nav ul { 
+    justify-content: space-between;
+    align-items: center;
+}
+.menu nav ul li {
+   list-style: none;
+}
+.menu nav ul li a {
+    text-decoration: none;
+ 
+ }
+
+ nav ul {
+    display: none ;
+ }
+ .menu a.btn.primary.convert-btn {
+    max-width: 150px;
+    max-height: 38px;
+}
+ @media(min-width:1400px){
+    header div {
+        margin: 0 3%;
+    }
+    .display span {
+        font-size: 6.0rem !important;
+    }
+    .display h1 {
+        font-size: 3.0rem;
+        letter-spacing: 22px;
+    }
+    .display span {
+        font-size: 6.0rem !important;
+        letter-spacing: 25px;
+    }
+ }

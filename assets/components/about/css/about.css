@@ -1,0 +1,39 @@
+ 
+
+.harmonyabout::after {
+    content: '';
+    /* background-image: url(../img/cover.png); */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 50%;
+    height: 115vh;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.harmonyabout{
+    height: 90vh;
+}
+@media(min-width:1300px){
+
+    .harmonyabout{
+        height: 100vh;
+        overflow: hidden;
+    }
+.harmonyabout::after {
+    background-size: cover;
+    background-image: url(../img/cover.png);
+    right: -13rem;
+  
+}
+.harmonyabout p {
+    width: 55%;
+    margin: 0;
+    font-size: .9rem;
+}
+.harmonyabout h2{
+    
+    width: 450px;
+  }
+}

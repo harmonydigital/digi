@@ -1,218 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;1,300&display=swap');
 *{
-    font-family: 'Montserrat';
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    
 }
-body {
-    margin: 0px;
-    font-family: 'Montserrat';
-    background-color: #fafafa;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
 }
-h3 {
-    color: #440089;
-    font-size: 1.65rem;
-}
- 
-.container {
-    display: flex;
-    margin: 15px auto;
-    max-width: 90%;
+
+header {
+    position: absolute;
+    background:transparent;
     width: 100%;
-    /* bottom: 0px; */
-    align-items: center;
+    left: 0;
+    height: 60px;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+    z-index: 999;
 }
-img{
-    max-width: 100%;
+header div {
+    margin: 20px;
 }
-button a{
-    color: white;
+main a.btn.primary {
+    margin: 35px auto 0;
+}
+.controls {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 35px;
+    position: relative;
+    top: -35px;
+    opacity: .8;
+}
+.controls button {
+    background: transparent;
+    border: 0;
+    width: 100px;
+    display: flex;
+    height: 45px;
+    padding: 30px 25px; 
+ 
+    align-items: center;
+}
+a.btn-down{
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    display: flex;
+    width: 30px;
+    margin: 22px auto 0;
+    height: 45px;
+    border-radius: 20px;
+    border: 2px solid;
+
+}
+a{
+    color: black;
     text-decoration: none;
 }
-a svg{ 
-    margin-left: 5px;
+.social {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin: 0 30px;
+    position: relative;
+    bottom: 15rem;
+   
 }
-button.btn{
-    width: auto;
-    height: 35px;
-    border-radius: 30px;
-    border: 0px;
+.social a {
+    margin: 8px 5px;
+    display: flex;
+    width: 30px; 
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio {
+    background: #e5e5e5;
+}
+a.btn {
+    text-decoration: none;
+    color: black;
+}
+a.btn.inline {
+    border: 1px solid;
+    width: 85px;
+    display: inline-flex;
+    height: 33px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 10px auto;
+    font-size: 0.7rem;
+
+}
+a.btn.inline:hover{
+    background-color: black;
     color: white;
-    font-weight: 600;
-    min-width: 160px;
-    padding: 0 30px;
-    display: block;
-    margin: 35px auto;
 }
-.btn.primary{
-    background-color: #0568DD;
-}
-.Donw {
-    background-color: #440089;
-    
+a.btn.primary {
+    border: 1px solid;
+    width: 200px;
+    display: inline-flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-image: linear-gradient(to right top, #f5c5ea, #a5e4fd);
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    border: 1px solid white; 
+    box-shadow: 1px 1px 3px #8886b7cf;
+    opacity: 0.9;
+    transition: .3s;
 }
 button{
-    background-color: transparent;
-    border: 0;
+    cursor: pointer;
+}
+.controls button:last-child {
+    justify-content: flex-end;
+    align-items: center;
+}
+.modal-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
 }
 
+.show{
+    display: block !important;
+}
+.modal-body .btn-sucess {
+    margin: 20px auto;
+}
+.modal-body h3 {
+    text-transform: uppercase;
+    margin: 20px auto 0;
+    max-width: 250px;
+}
+
+.btn-sucess {
+    border: 1px solid;
+    width: 150px;
+    display: inline-flex;
+    background-color: #32FF90 !important;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px; 
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    border: 1px solid white; 
+    box-shadow: 1px 1px 3px #8886b7cf;
+    opacity: 0.9;
+    transition: .3s;
+    background-color: red;
+}
+a.btn.primary:hover {
+    background-image: linear-gradient(to right top, #a5e4fd, #f3b9e6);
+    transition: .3s;
+    box-shadow: 0px 1px 0px #8886b7cf;
 
 
 
-span.element {
+}
+.btn svg{
+    margin-left: 5px;
+    font-size: .8rem;
+}
+.display {
+    background-image: url(../img/bg-desk.png);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    padding: 0;
+    background-repeat: no-repeat;
+    
+    background-position: 0 -70px;
+}
+.display .content-text h2 {
+    font-weight: 300;
+    text-align: center;
+    background: transparent;
+    width: 240px;
+    margin: 6rem auto 0;
+    font-size: 1rem;
+    
+}
+.display span {
+    font-size: 3rem;
+    text-align: center;
     display: block;
+    text-transform: uppercase;
+    font-weight: 900; 
+}
+ 
+span.title::before {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/lines.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+}
+.harmonyabout h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: .9;
+}
+.harmonyabout {
+    width: 85%;
     position: relative;
-    padding: 0 37px;
-    color: #0568DD;
+ 
+    margin: 0 auto 90px;
+}
+.harmonyabout span.title::before {
+    left: inherit;
+    right: 100px;
+    bottom: -40px;
+    z-index: 0;
+}
+p {
+    margin: 30px auto;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    color: #656565;
+    opacity: 1;
     font-weight: 600;
 }
-span.element:before {
-    content: "";
-    background: #0568DD;
-    width: 30px;
-    height: 4px;
+.display h1 {
+    font-size: 2rem;
+    text-align: center;
     display: block;
-    position: absolute;
-    bottom: 7px;
-    left: 0
-}
-header {
-    margin: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    left: 0px;
-}
-header .logo img {
-    width: 100px;
-}
-
-header .menu img {
-    height: 10px;
-}
-header .nav {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: #440089;
-    /* display: none; */
-    left: 0px;
-    top: 0px;
-}   
-header .nav ul{
-    margin: 0px;
-    padding: 0px 30px;
-}
-header .nav ul li {
-    padding: 20px 0px;
-    text-align: left;
-    font-size: 14px;
     text-transform: uppercase;
-    list-style: none;
-        border-bottom: 1px solid #0568dd6e;
+    font-weight: 300;
+}
+ 
+.harmonyabout .content-text {
+    padding: 0;
+}
+.brand .logo {
+    width: 39px;
+    margin: 0;
+    display: block;
 }
 
-
-#full-banner {
-    background-image: url(../img/designer.png);
-    width: 100%; 
-    z-index: -2;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+.social{
+    display: none;
 }
-
-#full-banner .title {
-    color: #fff;
-    margin: 0 auto 0px;
-    padding: 8% 20px;
-}
-#full-banner h1 { 
-    font-size: 36px;
-    margin: 50% 0px;
-}
-#full-banner p {
-    width: 260px;
-    font-size: 16px;
-    margin: 35% 0px 30px;
-}
-#full-banner svg{
-    color: #fff;
-    font-size: 13px;
-}
-#full-banner .btn {
-    background-color: #4D279F;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    border-radius: 50px;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 20px;
-}
-#full-banner .Donw {
-    display: flex;
-    position: absolute;
-    bottom: 70px;
-    right: 20px;
-    justify-content: center;
-    z-index: 99;
-    width: 50px;
-    height: 50px;
-    /* margin: 18px; */
-    /* padding: 10px; */
-    border-radius: 500px;
-}
-
-.about{
-    background-image: url(../img/fundo.png);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 0;
-    height: 90%;
-    top: 75%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.about .content-text{
-    z-index: 10;
-}
-
-div#about .container {
-    flex-direction: column;
-}
-@media(max-width: 768px){
-    .xs-hidden {
+ 
+@media(max-width:767px){
+    .h-xs{
         display: none !important;
     }
+    .content-text {
+        padding: 170px 5px 0;
+        position: relative;
+    }
+    span.title::before {
+        left: inherit;
+        right: 0px;
+        bottom: 170px;
+        z-index: 0;
+    }
+    .display h1 {
+        font-size: 1.5rem;
+        
+        padding: 1px 2px;
+    }
 }
-@media(min-width: 768px){
-    .sm-hidden {
-        display: none !important;
-    }
-    #full-banner h1 {
-        width: 100%;
-        font-size: 7rem;
-        text-align: center;
-        margin-bottom: 0px;
-    }
-    #full-banner p {
-        width: 100%;
-        font-size: 22px;
-        margin: 0% 0px 30px;
-        display: block;
-        text-align: center;
-    }
-    #full-banner .Donw {
-        display: flex;
-        position: absolute;
-        bottom: 10%;
-        right: 45%;
-    }
-    #full-banner {
-        background-position: bottom;
-    }
+@media(min-width:768px){
     
+    .social{
+        display: flex;
+    }
+    .portfolio .text-content h3 {
+        padding: 70px 0 50px !important;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-weight: 900;
+        font-size: 3rem ;
+    }
+    .harmonyabout span.title::before {
+     
+        left: -80px;
+        top: 10%;
+    }
+    .harmonyabout h2{
+      line-height: 1;
+      font-size: 3.6rem;
+ 
+    }
+   
+    .brand .logo {
+        width: 50px;
+       
+    }
+    .menu {
+        width: 50%;
+    }
+    .display h1 {
+        font-size: 2.3rem;
+    }
+    .display span {
+        font-size: 3.5rem !important;
+       
+    } 
+    .harmonyabout {
+ 
+        display: flex;
+        align-items: center;
+        padding: 0;
+      
+    }
+    .about .content-text {
+        padding:  0 10px !important; 
+    }
+     
+    .display {
+       
+        background-position: inherit;
+    }
+
+    .display .content-text {
+        padding: 210px 0 0;
+    }
+    .display .content-text h2 {
+       
+        width: 340px;
+        margin: 35px auto  0;
+    }
+}
+
+@media(min-width:1200px){
+    .container-flex {
+        display: flex;
+        justify-content: space-between;
+        max-width: 90%;
+        margin: 0 auto;
+        transition: .3s;
+    }
+    .tabs-portfolio {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .display .content-text {
+        padding: 13% 0 0;
+    }
+    .harmonyabout { 
+        min-width: 100%;
+        padding: 0 0;
+        margin: 0;
+    }
+    /* .harmonyabout .content-text {
+        
+        width: 20%;
+    }
+    .harmonyabout p{
+        width: 50%;
+    } */
+    .harmonyabout h2,h3 {
+        line-height: 1; 
+        font-size: 4.5rem !important;
+        letter-spacing: -5px;
+        line-height: 54px !important;
+    }
+    .harmonyabout p {
+        width: 100%;
+        margin: 0;
+        font-size: 1.1rem ;
+    }
+     
+    .display span {
+        font-size: 5.5rem !important;
+        letter-spacing: 27px;
+        
+    text-shadow:-3px 2px 2px #0e424977;
+    /* text-shadow: 0px 0px 9px #00dbff9e; */
+    }
+    .content-text {
+        padding: 15% 0 0;
+    }
+    .display h1 {
+        font-size: 2.3rem;
+        letter-spacing: 15px;
+    }   
+
+    nav ul{
+        display: flex !important;
+    }
+    .display {
+      
+        height: 100vh;
+    }
+    .harmonyabout {
+       
+        margin: 0 auto;
+    }
+    .menu {
+        max-width: 30%;
+    }
 }
