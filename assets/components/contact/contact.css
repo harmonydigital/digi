@@ -6,7 +6,7 @@ input,textarea {
     height: 50px;
     border-radius: 8px;
     box-shadow: none;
-    border: 1px solid #a1a1a1;
+    border:1px solid #b0d9fb;
     margin: 5px auto;
     display: block;
     padding-left: 15px;
@@ -20,6 +20,20 @@ textarea{
 .contact form {
     position: relative;
 }
+button.btn.primary {
+    display: block;
+    margin: 15px auto;
+    width: 80%;
+    height: 50px;
+    background-image: linear-gradient(to right top, #f5c5ea, #a5e4fd);
+    
+    border-radius: 30px;
+    border: 1px solid white;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    max-width: 200px;
+}
 h2 {
     font-size: 2rem;
     text-transform: uppercase;
@@ -30,6 +44,9 @@ h2 {
 
 
 @media (min-width:1024px){
+    button.btn.primary{
+        float: right;
+    }
     .container-flex {
         display: flex;
         justify-content: space-between;

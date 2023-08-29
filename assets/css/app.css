@@ -14,7 +14,15 @@ body{
 div#modal-body h3 {
     font-size: 17px !important;
 }
-
+.text-content {
+    position: relative;
+}
+div#portfolio span.title::before {
+    left: inherit;
+    right: 0px;
+    bottom: -56px;
+    z-index: 0;
+}
 header {
     position: absolute;
     background:transparent;
@@ -417,6 +425,6 @@ p {
         margin: 0 auto;
     }
     .menu {
-        max-width: 30%;
+        width: 45%;
     }
 }
