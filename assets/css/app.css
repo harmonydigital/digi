@@ -274,8 +274,13 @@ p {
 .social{
     display: none;
 }
- 
+@media(max-width:1024px){
+    .contact-content-text{
+        display: none;
+    }
+}
 @media(max-width:767px){
+   
     .h-xs{
         display: none !important;
     }

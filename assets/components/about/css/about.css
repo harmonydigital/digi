@@ -12,9 +12,9 @@
     right: 0;
     z-index: -1;
 }
-.harmonyabout{
+/* .harmonyabout{
     height: 90vh;
-}
+} */
 @media(min-width:1300px){
 
     .harmonyabout{

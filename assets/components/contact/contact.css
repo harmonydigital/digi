@@ -13,6 +13,48 @@ input,textarea {
     text-transform: uppercase;
     font-weight: 600;
 }
+div#returnSend .container {
+    background: white;
+    border-radius: 10px;
+    padding: 35px 0;
+    position: absolute;
+    z-index: 999;
+    margin: 0;
+    width: 100%;
+    left: 0;
+}
+div#returnSend {
+    position: absolute;
+    width: 100%;
+}
+div#returnSend h3{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900
+}
+.footer-controls {
+    display: flex;
+    justify-content: center;
+}
+div#returnSend{
+   display: none;
+}
+.footer-controls button {
+    background: blue;
+    color: white;
+    border: 1px solid white;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+}
+div#returnSend p{
+    font-size: 1rem;
+    text-align: center;
+   margin: 10px auto;
+}
+div#returnSend .container {
+    position: absolute;
+}   
 textarea{
  height: 100px;
  padding-top: 15px;
@@ -44,6 +86,11 @@ h2 {
 
 
 @media (min-width:1024px){
+    div#returnSend .container {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
     button.btn.primary{
         float: right;
     }

@@ -29,6 +29,15 @@
 <body>
     <div id="app"></div>
     <div class='contact' id='contact'>
+      <div id='returnSend'>
+        <div class="container">
+          <h3>Obrigado!</h3>
+          <p>recebemos sua mensagem..</p> 
+          <div class='footer-controls'>
+            <button>ok</button>
+          </div>
+        </div> 
+      </div>
       <div class='container-flex'>
           <div>
               <span class='tittle'></span>
@@ -46,13 +55,13 @@
                   <div class='area'>
                   <textarea id='imsg' type='number' placeholder='Digite sua mensagem'></textarea>
                 </div>
-                <button type='submit' class="btn primary  " href="">
+                <button id='submitbtn' type='submit' class="btn primary  " href="">
                 <span>Enviar agora</span>
                 <i class="fa-regular fa-paper-plane"></i>
                 </button>
               </form>
           </div>
-          <div>
+          <div class="contact-content-text">
               <h4>Vamos bater um papo, produtivo?</h4>
               <p>Fale conosco agora, e conversaremos sobre soluções criativas e relevantes para seu negócio!</p>
           </div>
@@ -187,14 +196,22 @@ jQuery('a[href^=#]').on('click', function(e){
     email:imail.value,
     numero:iwhats.value,
     mensagem:imsg.value
-  }]
+  }] 
 
-  var horaAtual=relogio()
+
+  if(iname.value.length>0){
+    console.log('')
+  }
  
-  db.collection('mensagens').doc(relogio()).set({  
-                teste:'teste',
-               
-              }) 
+  db.collection('mensagens').doc(relogio()).set({
+    nome:iname.value,
+    email:imail.value,
+    numero:iwhats.value,
+    mensagem:imsg.value
+  }) 
+  setTimeout(() => {
+    getAlertSend()
+  }, 2000);
  })
 </script>
 </body>
