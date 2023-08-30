@@ -92,7 +92,7 @@ initapp=()=>{
                         </div>
 
                         <div>
-                            <p>Harmony se traduz na eficiente interação, entre produtos e pessoas.
+                            <p>Harmony se traduz na eficiente interação entre produtos e pessoas.
                             </br></br>Somos a estreita relação do homem e tecnologia.
                             Amamos criar soluções reais e tornar a vida de pessoas ainda melhor através de soluções tecnologicas.
                             </br></br>Unimos um grupo de profissionais do Design, para conversas sobre o comportamento humano e como a interação de alguns produtos podem ser tão relevantes, assim projetar novos modelos e testar novas soluções.

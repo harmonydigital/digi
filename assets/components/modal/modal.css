@@ -19,14 +19,15 @@ z-index: 999;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 15px;
-    width: 60%;
+    padding: 0;
+    width: 95%;
     margin: 0 auto;
     background: white;
     border-radius: 10px;
-    height: 60vh;
+    height: auto;
     margin-top: 5%;
-    left: 20%;
+    left: 10px;
+    
 
 }
 
@@ -44,4 +45,20 @@ z-index: 999;
     left: 0;
     top: 0;
     z-index: -1;
+}
+
+@media(min-width:768px){
+    .modal-body {
+          
+        width: 43%;
+        left: 30%;
+    }
+}
+@media(min-width:1024px){
+    .modal-body {
+          
+        width: 35%;
+         
+        left: 35%;
+    }
 }

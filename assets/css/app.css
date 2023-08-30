@@ -12,7 +12,11 @@ body{
 
 }
 div#modal-body h3 {
-    font-size: 17px !important;
+    font-size: 14px !important;
+    font-weight: 300;
+    text-transform: lowercase;
+    margin: 0 auto 50px;
+    min-width: 100%;
 }
 .text-content {
     position: relative;
@@ -47,7 +51,7 @@ main a.btn.primary {
     justify-content: space-between;
     height: 35px;
     position: relative;
-    top: -35px;
+    top: 0;
     opacity: .8;
 }
 .controls button {
@@ -160,19 +164,22 @@ button{
     margin: 20px auto 0;
     max-width: 250px;
 }
-
+.cover h2{
+    margin: 5px auto;
+}
 .btn-sucess {
     border: 1px solid;
-    width: 150px;
+    width: 250px;
     display: inline-flex;
     background-color: #32FF90 !important;
-    height: 36px;
+    background-image: linear-gradient(to right top, #ecb6e0, #54ffc6);
+    height: 50px;
     justify-content: center;
     align-items: center;
     border-radius: 30px; 
     font-weight: 600 !important;
     text-transform: uppercase;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     border: 1px solid white; 
     box-shadow: 1px 1px 3px #8886b7cf;
     opacity: 0.9;
@@ -233,6 +240,7 @@ span.title::before {
     text-transform: uppercase;
     font-weight: 900;
     line-height: .9;
+    text-align: left;
 }
 .harmonyabout {
     width: 85%;
@@ -242,10 +250,12 @@ span.title::before {
 }
 .harmonyabout span.title::before {
     left: inherit;
-    right: 100px;
-    bottom: -40px;
+    right: 0;
+    bottom: 50px;
     z-index: 0;
 }
+
+
 p {
     margin: 30px auto;
     font-size: 1.0rem;
@@ -274,6 +284,12 @@ p {
 .social{
     display: none;
 }
+.cover {
+    margin-bottom: 30px;
+}
+a.btn-sucess svg {
+    margin:5px;
+}
 @media(max-width:1024px){
     .contact-content-text{
         display: none;
@@ -301,7 +317,9 @@ p {
     }
 }
 @media(min-width:768px){
-    
+    .cover {
+        margin-bottom: 50px;
+    }
     .social{
         display: flex;
     }
@@ -365,6 +383,16 @@ p {
 }
 
 @media(min-width:1200px){
+    .display .content-text h2 {
+        width: 340px;
+        margin: 90px auto 0;
+    }
+    div#portfolio span.title::before {
+        left: inherit;
+        right: 33%;
+        bottom: -56px;
+        z-index: 0;
+    }
     .container-flex {
         display: flex;
         justify-content: space-between;
