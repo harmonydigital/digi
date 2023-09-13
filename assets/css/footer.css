@@ -1,0 +1,117 @@
+footer .display {
+    background: black ;
+    color: white;
+    height: auto;
+}
+footer .social-f {
+    /* color: white !important; */
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 31px;
+    font-size: 20px;
+}
+footer .nav-f {
+    display: flex;
+    justify-content: center;
+}
+footer ul li {
+    list-style: none;
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+footer .display .content-text h2 {
+    width: 220px;
+    margin: 2rem auto 0;
+    font-size: 14px;
+}
+
+footer .display span.title {
+    font-size: 25px;
+    letter-spacing: 0;;
+}
+.nav-f ul {
+    padding: 0;
+    margin: 0;
+}
+footer .nav-f a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+    display: block;
+}
+footer a.btn.primary svg{
+    color: black;
+}
+footer .display a span {
+    font-size: 15px;
+}
+footer a.btn.primary span{
+    font-size: 14px;
+    color: black;
+
+}
+ 
+ footer span.title::before {
+    left: inherit;
+    right: 0px;
+    bottom: 220px;
+    z-index: 0;
+}
+footer .content-text {
+    padding: 50px 0px 0 !important;
+    position: relative;
+}
+ 
+
+@media(min-width:1100px){
+    footer .display span.title {
+        font-size: 110px;
+        letter-spacing: 0;
+    }
+    .footer-logo img {
+        width: 90px;
+    }
+    footer span.title::before {
+        left: inherit;
+        right: 38%;
+        bottom: 140px;
+        z-index: 0;
+    }
+    footer .nav-f a {
+        color: white;
+      
+   
+        font-size: 12px;
+        padding: 0; 
+      
+        text-transform: uppercase;
+    }
+    footer .display .content-text h2{
+        width: inherit;
+       
+    }
+    footer .display {
+        
+        padding: 20px 0 30px;
+    }
+    footer .content-text {
+        padding: 50px 0px 0 !important;
+    
+    }
+    .nav-f ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        align-items: center;
+    }
+}

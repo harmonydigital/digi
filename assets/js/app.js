@@ -18,7 +18,7 @@ relogio=()=>{
 }  
 initapp=()=>{
     app.innerHTML=`
-        <header>
+        <header  id="top">
             <div class='brand'><a href='index.html'><img class='logo' src='assets/img/beija.png'></a></div>
             <div class='menu'>
             <button onclick='menutoggleMenu()' class='btn-menu'>
@@ -79,7 +79,7 @@ initapp=()=>{
                             
                             <a class='' href="https://www.linkedin.com/in/harmony-digital/" target="_blank">
                               <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
+                            </a>d
                             <a class='' href="https://github.com/harmonydigital" target="_blank" > 
                                 <i class="fa-brands fa-github"></i>
                             </a>
@@ -96,7 +96,7 @@ initapp=()=>{
                         para pessoas,
                         como eu e você.</h2>
                         <a class='anchor btn primary convert-btn h-xs' href='#about'>
-                        <span>Fale comigo</span>
+                        <span>d q</span>
                                 <i class="fa-brands fa-whatsapp"></i>
                             </a>
                         </div>
@@ -288,7 +288,6 @@ initapp=()=>{
                     
                </div>
         </main>
-
 
     `
 }
