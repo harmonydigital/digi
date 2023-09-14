@@ -135,6 +135,46 @@ initapp=()=>{
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class='overlaygallery'>
+                                                
+                                                <div class='text-content'>  
+                                                    <span>
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </span>
+                                                    <div>
+                                                        <h4>Web Site Intellectex</h4>
+                                                        <p>App Institucional com descrição dos serviços prestados.</p> 
+                                                    </div>
+                                                    <span>
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                    </span>
+                                                </div>
+                                            
+                                            </div>
+                                        
+                                            <img class='logo' src='assets/img/intellectex.png'>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class='overlaygallery'>
+                                                
+                                                <div class='text-content'>  
+                                                    <span>
+                                                        <i class="fa-regular fa-heart"></i>
+                                                    </span>
+                                                    <div>
+                                                        <h4>E-commerce Tudo Praela</h4>
+                                                        <p>Loja Woocommerce integração de pagamentos e calculo de frete.</p> 
+                                                    </div>
+                                                    <span>
+                                                        <i class="fa-solid fa-chevron-down"></i>
+                                                    </span>
+                                                </div>
+                                            
+                                            </div>
+                                        
+                                            <img class='logo' src='assets/img/tudopraela.png'>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class='overlaygallery'>
                                                             
                                                 <div class='text-content'>  
                                                     <span>
