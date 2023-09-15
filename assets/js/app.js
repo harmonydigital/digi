@@ -143,6 +143,11 @@ initapp=()=>{
                                                     <div>
                                                         <h4>Web Site Intellectex</h4>
                                                         <p>App Institucional com descrição dos serviços prestados.</p> 
+                                                        <a class='get-site' target='_blank' href='https://intellectx.com.br/'>
+                                                        visite este site
+                                                        <i class="fa-solid fa-arrow-right"></i>
+
+                                                        </a>
                                                     </div>
                                                     <span>
                                                         <i class="fa-solid fa-chevron-down"></i>
@@ -163,7 +168,13 @@ initapp=()=>{
                                                     <div>
                                                         <h4>E-commerce Tudo Praela</h4>
                                                         <p>Loja Woocommerce integração de pagamentos e calculo de frete.</p> 
-                                                    </div>
+                                                        <a class='get-site' target='_blank' 
+                                                        href='https://tudopraela.infinityfreeapp.com/'>visite este site
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                        
+                                                        </a>
+
+                                                        </div>
                                                     <span>
                                                         <i class="fa-solid fa-chevron-down"></i>
                                                     </span>
@@ -183,6 +194,12 @@ initapp=()=>{
                                                     <div>
                                                         <h4>Web Site Hotel</h4>
                                                         <p>app capta e armazena dados de pessoas para reservas de apartamentos na praia.</p> 
+                                                        <a class='get-site' target='_blank' 
+                                                        href='https://sundaystore.infinityfreeapp.com/'>visite este site
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                        
+                                                        </a>
+
                                                     </div>
                                                     <span>
                                                     <i class="fa-solid fa-chevron-down"></i>
@@ -203,6 +220,12 @@ initapp=()=>{
                                                     <div>
                                                         <h4>Web Site landing page Grupo Vip</h4>
                                                         <p>app capta e armazena dados de pessoas e as conecta a lista vip.</p> 
+                                                        <a class='get-site' target='_blank' 
+                                                        href='https://harmonydigital.github.io/outlabs/'>visite este site
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                        
+                                                        </a>
+
                                                     </div>
                                                     <span>
                                                     <i class="fa-solid fa-chevron-down"></i>
@@ -223,6 +246,13 @@ initapp=()=>{
                                                     <div>
                                                         <h4>Web Site landing page Cartão</h4>
                                                         <p>app realiza cadastro de pessoas e armazena dados para cartão de crédito e envio de publicidade.</p> 
+                                                        
+                                                        <a class='get-site' target='_blank' 
+                                                        href='https://harmonydigital.github.io/registercard/'>visite este site
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                        
+                                                        </a>
+
                                                     </div>
                                                     <span>
                                                     <i class="fa-solid fa-chevron-down"></i>
@@ -244,6 +274,12 @@ initapp=()=>{
                                                     <div>
                                                         <h4>App Delivery na Praia</h4>
                                                         <p>app realiza pedidos e entrega ao restaurante em tempo real na praia.</p> 
+                                                        <a class='get-site' target='_blank' 
+                                                        href='https://harmonydigital.github.io/beachbar/'>visite este site
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                        
+                                                        </a>
+
                                                     </div>
                                                     <span>
                                                     <i class="fa-solid fa-chevron-down"></i>
@@ -262,9 +298,15 @@ initapp=()=>{
                                                         <i class="fa-regular fa-heart"></i>
                                                     </span>
                                                     <div>
-                                                        <h4>App Delivery na Praia</h4>
-                                                        <p>app gerencia pedidos em tempo real, calcula mostra faturamento do dia.</p> 
-                                                    </div>
+                                                        <h4>App ADM Pedidos na Praia</h4>
+                                                        <p>app gerência pedidos em tempo real, calcula mostra faturamento do dia.</p> 
+                                                        
+                                                        <a class='get-site' target='_blank' href='https://harmonydigital.github.io/admbeach/'>
+                                                        visite este site
+                                                        <i class="fa-solid fa-arrow-right"></i>
+                                                        </a>
+
+                                                        </div>
                                                     <span>
                                                     <i class="fa-solid fa-chevron-down"></i>
                                                     </span>
@@ -300,27 +342,7 @@ initapp=()=>{
                     </div>
 
                     </div>
-
-                    <!-- VIDEO -->
-                    <div class='container-movie' hidden>
-                        <div id='thismovie' class='thismovie'>
-                            <span class='title'></span>
-                            <h3>Crie Transforme</h3>
-                            <div class="container">
-                            <video poster="https://sb.vox1.net/video/poligonBG.jpg" playsinline autoplay muted loop>
-                                <source src="assets/img/video.mp4" type="video/mp4">
-                            </video>
-                            <p class="text">HARMONY</p>
-                        </div>
-                    </div>
-
-
-                 
-
-
-
-
-
+ 
 
 
                     </div>

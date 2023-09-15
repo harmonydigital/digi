@@ -18,6 +18,32 @@ div#modal-body h3 {
     margin: 0 auto 50px;
     min-width: 100%;
 }
+a.get-site {
+    margin: 0;
+    display: flex;
+    width: 50%;
+    border: 1px solid white;
+    color: white;
+    font-size: .8rem;
+    text-align: center;
+    justify-content: center;
+    height: 22px;
+    align-items: center;
+    border-radius: 20px;
+}
+a.get-site svg {
+
+    display: none;
+    transition: .2s;
+margin-top: 2px;
+margin-left: 2px;
+}
+a.get-site:hover svg {
+
+    display: inherit !important;
+    transition: .2s;
+
+}
 .footer-logo img {
     width: 60px;
 }
