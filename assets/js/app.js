@@ -34,15 +34,26 @@ initapp=()=>{
                         </button>
                     </div>
                     <ul>
-                        <li>
-                            <a href='#portfolio'>Galeria</a>
-                        </li>
                        
+                        <li class='iten-dropdown' >
+                           <a href=' javascript:void(0)'>Serviços</a>
+                           <div class='dropdown'>
+                              <ul>
+                                 <li>
+                                    <a href='https://harmonydigital.github.io/ecommercelive/' target='_blank' >E-commerce <i class="fa-solid fa-arrow-right"></i></a>
+                                 </li>
+                                
+                              </ul>
+                           </div>
+                        </li>
+                        <li>
+                           <a href='#portfolio'>Galeria</a>
+                        </li>
                         <li>
                             <a href='#about'>Sobre</a>
                         </li>
                         <li>
-                            <a href='#contact'>Contato</a>
+                            <a href='#contact'>E-mail</a>
                         </li>
                         <li>
                             <a class='btn primary convert-btn' href="">
@@ -121,7 +132,7 @@ initapp=()=>{
                 <div class='tabs-portfolio'>
                    <div class="tab">
                       <button class="tablinks" onclick="openCity(event, 'apps')">Tecnologia</button>
-                      <button class="tablinks" onclick="openCity(event, 'brand')">Brand</button>
+                      <button class="tablinks" onclick="openCity(event, 'brand')">Branding</button>
                       <button class="tablinks" onclick="openCity(event, 'social')">Social Media</button>
                    </div>
                    <div id="apps" class="tabcontent">

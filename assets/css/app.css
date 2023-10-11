@@ -381,9 +381,13 @@ a.btn-sucess svg {
         width: 50px;
        
     }
+   
     .menu {
-        width: 50%;
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
     }
+    
     .display h1 {
         font-size: 2.3rem;
     }
@@ -510,6 +514,6 @@ a.btn-sucess svg {
         margin: 0 auto;
     }
     .menu {
-        width: 45%;
+        width: 60%;
     }
 }
