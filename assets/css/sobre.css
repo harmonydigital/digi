@@ -1,0 +1,49 @@
+p {
+    width: 65%;
+}
+.perfil {
+    display: flex;
+    padding-top: 30%;
+    justify-content: center;
+}
+
+.content-text {
+    padding: 7vh 15px;
+}
+.display-c {
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: bottom;
+}
+@media (max-width:768px){
+    .perfil {
+        display: flex;
+        padding-top: 30%;
+        justify-content: center;
+    }
+    .display-c {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/display-c.png);
+        height: 100vh;
+    }
+}
+
+@media (min-width:769px){
+    .perfil {
+        display: flex;
+        /* padding-top: 30%; */
+        /* justify-content: center; */
+        padding-left: 60%;
+        padding-top: 20%;
+        position: fixed;
+    }
+    .content-text {
+        padding: 40vh 15px;
+        width: 500px;
+    }
+    .display-c{
+        background-size: cover;
+        background-image: url("../img/display-c-desktop.png");
+    }
+}

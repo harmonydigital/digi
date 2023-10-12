@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thais Mariano - Portfolio 2023</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/experiencias.css">
+    <link rel="stylesheet" href="assets/css/tab.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+</head>
+<body  class="display-c">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <Img src="assets/img/logo.png"></Img>
+            </div>
+
+            <div class="menu">
+                <button onclick="openMenu()"><img src="assets/img/menu.png"></button>
+            </div>
+        </div>
+        <div id="ulmenu">
+            <div class="controls">
+                <div class="container">
+                    <button onclick="openMenu()"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button onclick="openMenu()"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                
+            </div>
+            <nav  >
+                <ul >
+                    <li>
+                        <a href="index.html">
+                            Página Inicial
+                        </a>
+                    </li>
+                    <li>
+                        <a href="experiencias.html">
+                            Experticies
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">
+                            Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+                <div class="social">
+                    <h4>Follow me</h4>
+                    <ul>
+                        <li>
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/thaisdevfront" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/thais-mariano-712340216/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+    </div>
+    </header>
+    <section>
+        <div class="display-c">
+            
+            <div class="content-text">
+                <h1>
+                    Experticies  
+                </h1>
+                <p>
+                    design, social midia, web design e Desenvolvedora front-end
+                </p>
+                <div>
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'London')">Design</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">Social media</button>
+                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">front-end</button>
+                      </div>
+                      
+                      <div id="London" class="tabcontent">
+                        <!-- <h3>Designer</h3>
+                        <p>Design de peças publicitárias e gráficas.</p> -->
+                        <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+                            <div class="swiper-wrapper" id="swiper-wrapper-cbfdda2e395f437e" aria-live="polite">
+                              <div class="swiper-slide swiper-slide-active" style="width: 320px;" role="group" aria-label="1 / 9"><div class="card">
+                                    <img class="img-card" src="assets/img/FEED - ESQUINA 2.png">
+                                    <div class="card-text">
+                                        <h3>Esquina das modas Sports - FEED</h3>
+                                        <p>Atuando designer social midia para Esquina das modas Sports Ltda.
+                                            Promovendo produtos e roupas esportivas.
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                              <div class="swiper-slide swiper-slide-next" style="width: 320px;" role="group" aria-label="2 / 9">
+                                <div class="card">
+                                    <img class="img-card" src="assets/img/FEED - ESQUINA 2.png">
+                                    <div class="card-text">
+                                        <h3>Esquina das modas Sports - FEED</h3>
+                                        <p>Atuando designer social midia para Esquina das modas Sports Ltda.
+                                            Promovendo produtos e roupas esportivas.
+                                        </p> 
+                                    </div>
+                                </div>
+                                </div>
+                              <div class="swiper-slide" style="width: 320px;" role="group" aria-label="3 / 9">Slide 3</div>
+                              <div class="swiper-slide" style="width: 320px;" role="group" aria-label="4 / 9">Slide 4</div>
+                              <div class="swiper-slide" style="width: 320px;" role="group" aria-label="5 / 9">Slide 5</div>
+                              <div class="swiper-slide" style="width: 320px;" role="group" aria-label="6 / 9">Slide 6</div>
+                              <div class="swiper-slide" style="width: 320px;" role="group" aria-label="7 / 9">Slide 7</div>
+                              <div class="swiper-slide" style="width: 320px;" role="group" aria-label="8 / 9">Slide 8</div>
+                              <div class="swiper-slide" role="group" aria-label="9 / 9" style="width: 320px;">Slide 9</div>
+                            </div>
+                            <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+                          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        
+                        
+                      </div>
+                      
+                      <div id="Paris" class="tabcontent">
+                        <h3>Designer Social Midia</h3>
+                        <p>Design para campanhas publicitárias e conceituais.</p>
+                        <div class="card">
+                            <img class="img-card" src="assets/img/FEED - ESQUINA 2.png">
+                            <div class="card-text">
+                                <h3>Esquina das modas Sports - FEED</h3>
+                                <p>Atuando designer social midia para Esquina das modas Sports Ltda.
+                                    Promovendo produtos e roupas esportivas.
+                                </p> 
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="img-card" src="assets/img/FEED PADRÃO - calvin klein.png">
+                            <div class="card-text">
+                                <h3>Esquina das modas Sports - FEED</h3>
+                                <p>Atuando designer social midia para Esquina das modas Sports Ltda.
+                                    Promovendo Cuecas, Calvin klein.
+                                </p> 
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="img-card" src="assets/img/FEED - PADRÃO 1.png">
+                            <div class="card-text">
+                                <h3>Smidi magazine São Luiz Do Paraitinga - FEED</h3>
+                                <p>Atuando designer social midia para Smidi magazine São Luiz Do Paraitinga Ltda.
+                                    Promovendo Produtos Rosas para estreia do filme da Barbie.
+                                </p> 
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="img-card" src="assets/img/BOTARAMARIM.png">
+                            <div class="card-text">
+                                <h3>O calçadão - FEED</h3>
+                                <p>Atuando designer social midia para O calçadão.
+                                    Promovendo Produtos Ramarim.
+                                </p> 
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="img-card" src="assets/img/arte de servir bem.png">
+                            <div class="card-text">
+                                <h3>Art&Sabor - FEED</h3>
+                                <p>Atuando designer social midia para O Art&Sabor.
+                                    Promovendo confeitos Artesanais(Imagem ilustrativa).
+                                </p> 
+                            </div>
+                        </div>
+                       
+                      </div>
+                      
+                      <div id="Tokyo" class="tabcontent">
+                        <h3>Web Design</h3>
+                        <p>Profissional Web Design, gestão de dados, Ux-Ui, Web Design, Ai, E-commerces, e softwares.</p>
+                        <div class="card">
+                            <img class="img-card" src="assets/img/BOTARAMARIM.png">
+                            <div class="card-text">
+                                <h3>O calçadão - FEED</h3>
+                                <p>Atuando designer social midia para O calçadão.
+                                    Promovendo Produtos Ramarim.
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="assets/js/menu.js"></script>
+<script src="assets/js/tab.js"></script>
+
+<script src="assets/js/all.js"></script>
+
+</html>

@@ -1,0 +1,55 @@
+.content-text {
+    padding: 17vh 15px;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+img.img-card {
+    width: 100%;
+}
+.card-text {
+    padding: 10px;
+}
+.card-text p {
+    margin: 10px 0px;
+}
+
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

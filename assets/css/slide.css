@@ -1,164 +1,85 @@
- 
-  html,
-  body {
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
     position: relative;
-    height: 100%;
+    margin: auto;
   }
-
-  .slide {
-    height: 70vh;
-    margin: 15px auto;
-}
-
-  body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-
-  .swiper {
-    width: 100%;
-    height: 100%;
-   border-radius: 20px;
-
-  }
-   
-
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   border-radius: 10px;
-   transform: scale(0.9) !important; 
-   transition: .3s;
-   
-
-  }
-
-
-  @media(max-width:767px) {
-    .swiper-slide {
   
-     transform: scale(0.9) !important; 
-     transition: .3s;
-     
-  
-    }
-    .swiper-slide:hover  {
-      transform: scale(1.2) !important; 
-     transition: .2s;
-  
-  
-    }
-  
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-   border-radius: 10px;
-
-  }
-  .swiper-slide:hover .overlaygallery{
-    display: block;
-  }
-
-
-  @media(min-width:1200px){
-   .slide {
-      height: 90vh;
-  }
-  }
-
-  @media (min-width:768px){
-    .slide {
-      height: 85vh; 
-  }
-  .swiper-slide {
-  
-    transform: scale(1) !important; 
-    transition: .3s;
+  /* Next & previous buttons */
+  .prev, .next {
     cursor: pointer;
- 
-   }
-   .swiper-slide:hover {
-  
-    transform: scale(1.1) !important; 
-    transition: .2s;
-    z-index: 999 !important;
-    
- 
-   }
-  }
-
-  @media (min-width:1200px){
-    .slide {
-      height: 90vh; 
-      margin: 0 ;
-  }
-  }
-
-  .overlaygallery {
-    background: #000000c7;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
     color: white;
-    border-radius: 10px;
-    /* display:block; */
-    /* background-image: linear-gradient(to right top, #a5e4fd, #f3b9e6); */
-    background-image: linear-gradient(238deg, transparent,  #07070cab);
-    transform: scaleY(0);
-     transition: 1s;
-     top:100%
-
-}
-.swiper-slide:hover .overlaygallery {
-
-  transform: scaleY(1);
-  transition: .5s;
-  top:0%
-
-
-}
-.overlaygallery .text-content {
-  position: fixed;
-  bottom: 20px;
-  margin: 50px 35px; 
-  display: flex;
-}
-.overlaygallery .text-content div {
-  margin-left: 18px;
-}
-.overlaygallery .text-content span:first-child {
-font-size: 1rem;
-margin-top: 8px;
-}
-.overlaygallery .text-content span:last-child {
-  font-size: .8rem;
-margin-top:40px;
-
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
   }
-.overlaygallery .text-content h4 {
-  font-size: .9rem;
-  margin: 5px 0;
-  text-transform: uppercase;
-
-}
-.overlaygallery .text-content p {
-  font-size: .8rem;
-  margin: 5px 0;
-  padding: 5px 0;
-}
-.overlaygallery p,.overlaygallery  h4 {
-  text-align: left !important;
- 
-}
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
