@@ -296,6 +296,30 @@ initapp=()=>{
                         <!-- Swipesr -->
                         <div class="swiper mySwiper">
                            <div class="swiper-wrapper">
+
+
+                              <div class="swiper-slide">
+                                 <div class='overlaygallery'>
+                                       <div class='text-content'>
+                                       <span>
+                                       <i class="fa-regular fa-heart"></i>
+                                       </span>
+                                       <div>
+                                             <h4>Branding app Quero pizza</h4>
+                                             <p>WebApp Restaurante Quero Pizza delivery.</p>
+                                             <a class='get-site' target='_blank' 
+                                                href='https://harmonydigital.github.io/queropizza/'>visite este site
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                             </a>
+                                       </div>
+                                       <span>
+                                       <i class="fa-solid fa-chevron-down"></i>
+                                       </span>
+                                       </div>
+                                    </div>
+                                 <img class='logo' src='assets/img/produtos/brand/brand-queropizza.png'>
+                              </div>
+
                               <div class="swiper-slide">
                                  <div class='overlaygallery'>
                                          <div class='text-content'>

@@ -3,91 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thais Mariano - Portfolio 2023</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
-</head>
+    <title>Harmony Design -  Crie aplicações e mais</title>
+    <link rel="shortcut icon" href="favico.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/slide.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/components/about/css/about.css">
+    <link rel="stylesheet" href="assets/components/tabs/tabs.css">
+    <link rel="stylesheet" href="assets/components/modal/modal.css">
+    <link rel="stylesheet" href="assets/components/portfolio/portfolio.css">
+    <link rel="stylesheet" href="assets/components/movie/movie.css">
+    <link rel="stylesheet" href="assets/components/contact/contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="">
+</head> 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VBNCGW836M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VBNCGW836M');
+</script>
 <body>
-    <header>
+    <div id="app"></div>
+    <div class='contact' id='contact'>
+      <div id='returnSend'>
         <div class="container">
-            <div class="logo">
-                <Img src="assets/img/logo.png"></Img>
-            </div>
-
-            <div class="menu">
-                <button onclick="openMenu()"><img src="assets/img/menu.png"></button>
-            </div>
-        </div>
-        <div id="ulmenu">
-            <div class="controls">
-                <div class="container">
-                    <button onclick="openMenu()"><i class="fa-solid fa-chevron-left"></i></button>
-                    <button onclick="openMenu()"><i class="fa-solid fa-xmark"></i></button>
+          <h3>Obrigado!</h3>
+          <p>recebemos sua mensagem..</p> 
+          <div class='footer-controls'>
+            <button>ok</button>
+          </div>
+        </div> 
+      </div>
+      <div class='container-flex'>
+          <div>
+              <span class='tittle'></span>
+              <h2>Contato</h2>
+              <form class='formMsg'>
+                  <div class='input'>
+                      <input id='iname' type='text' placeholder='Digite seu nome' required autofocus>
+                  </div>
+                  <div class='input'>
+                      <input id='imail' type='email' placeholder='e-mail'>
+                  </div>
+                  <div class='input'>
+                      <input id='iwhats' type='number' placeholder='Telefone whatsapp'>
+                  </div>
+                  <div class='area'>
+                  <textarea id='imsg' type='number' placeholder='Digite sua mensagem'></textarea>
                 </div>
-                
-            </div>
-        <nav  >
-            <ul >
-                <li>
-                    <a href="index.html">
-                        Página Inicial
-                    </a>
-                </li>
-                <li>
-                    <a href="experiencias.html">
-                        Experticies
-                    </a>
-                </li>
-                <li>
-                    <a href="sobre.html">
-                        Sobre
-                    </a>
-                </li>
-                <li>
-                    <a href="contato.html">
-                        Contato
-                    </a>
-                </li>
-            </ul>
-            <div class="social">
-                <h4>Follow me</h4>
-                <ul>
-                    <li>
-                        <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/thaisdevfront" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/thais-mariano-712340216/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                <button id='submitbtn' type='submit' class="btn primary  " href="">
+                <span>Enviar agora</span>
+                <i class="fa-regular fa-paper-plane"></i>
+                </button>
+              </form>
+          </div>
+          <div class="contact-content-text">
+              <h4>Vamos bater um papo, produtivo?</h4>
+              <p>Fale conosco agora, conversaremos sobre soluções criativas e relevantes para seu negócio!</p>
+          </div>
+      </div>
+  </div>
+  <footer>
+    
+    
+        <div class='display'> 
+          <div class='content-text'>
+            <div class="footer-logo">
+            <a href='index.html'><img class='logo' src='assets/img/logo-foo.png'></a>
+              </div>
+              <span class='title'>Harmony</span>
 
-    </div>
-    </header>
-    <section>
-        <div class="display">
-            <div class="content-text">
-                <h1>
-                    Um toque criativo, crie
-                    campanhas fantásticas.      
-                </h1>
-                <p>
-                    Conheça mais sobre minha
-                    carreira profissional.
-                </p>
-                <a class="btn" href="experiencias.html">
-                    <i class="fa-regular fa-bookmark"></i>  Ver Portfólio
+              <div class='social-f'>
+                <a class='' href='https://www.instagram.com/harmonydigitalflow/'  target="_blank">    
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                
+                <a class='' href="https://www.linkedin.com/in/harmony-digital/" target="_blank">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a class='' href="https://github.com/harmonydigital" target="_blank" > 
+                    <i class="fa-brands fa-github"></i>
                 </a>
             </div>
-        </div>
-    </section>
-</body>
+              <h2>ative a criatividade, comece algo novo</br>  agora mesmo...</h2>
+              <a class='btn-down' href='#top'>
+                <i class="fa-solid fa-chevron-up"></i>
+              </a>
+          </div>
 
-<script src="assets/js/menu.js"></script>
-<script src="assets/js/all.js"></script>
+          <div class="nav-f">
+            <ul>
+              <li>
+                  <a href='#portfolio'>Galeria</a>
+              </li>
+            
+              <li>
+                  <a href='#about'>Sobre</a>
+              </li>
+              <li>
+                  <a href='#contact'>Contato</a>
+              </li>
+              <li>
+                  <a class='btn primary convert-btn' href="">
+                      <span style="font-weight: 600;">55+ 12 99802 - 1517</span>
+                      <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+              </li>
+              <li>
+                  <a class='btn inline' href="https://github.com/harmonydigital/harmonywebsites" target='_blank'>
+                      <span  style="font-weight: 300;font-size: 12px;">v1.0</span>
+                      <i class="fa-brands fa-github"></i>
+                  </a>
+              </li>
+          </ul>          
+        </div>
+
+        </div>
+
+      
+  </footer>
+
+  
+  <!-- WHATSBUTTON -->
+  <a href='' class='whatsapi  convert-btn'>
+    <span class="tooltip">Clique para falar</span>
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+  <!-- WHATSBUTTON -->
+    <div class='modal' id='modal'  > 
+      <div class='modal-body' id='modal-body'>
+        <div class='controls'>
+          <button onclick="toggleModal()"><i class="fa-solid fa-chevron-left"></i></button>
+          <button onclick="toggleModal()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class='cover'>
+        <img src="assets/img/fill.png" alt="">
+        <h2>Thais Mariano</h2>
+        <span>Profissional Designer</span>
+
+      </div>
+            <a href='https://wa.me/5512981021517?text=' target='_blank' 
+            class='btn-sucess '>Continuar <i style='margin-right: 5px;' class="fa-solid fa-arrow-right"></i></a> 
+            <h3>fale via whatsapp :)</h3>
+         
+      </div>
+      <div onclick="toggleModal()" class='overlay'></div>
+  </div>
+
+  <script src="assets/components/contact/contact.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/components/modal/modal.js"></script>
+  <script src="assets/controller/galleryanimated/galleryanimated.js"></script>
+  <script src="assets/js/all.js"></script>
+  <script src="assets/components/tabs/tabs.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+  <!-- Initialize Swiper -->
+  <script>  
+    var swiper = new Swiper(".mySwiper", { 
+      spaceBetween: 30,
+      autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+      loop: true,
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,  
+      },breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 35,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+          },
+        },
+    });
+    var swiper = new Swiper(".tecnologia", {
+      loop: true,
+     spaceBetween: 30,
+    //  autoplay: {
+    //      delay: 3000,
+    //      disableOnInteraction: false,
+    //    },
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,  
+     },breakpoints: {
+         320: {
+           slidesPerView: 1,
+           spaceBetween: 35,
+         },
+         768: {
+           slidesPerView: 2,
+           spaceBetween: 5,
+         },
+         1024: {
+           slidesPerView: 3,
+           spaceBetween: 5,
+         },
+       },
+   });
+  </script>
+
+<script>
+jQuery('a[href^=#]').on('click', function(e){
+    e.preventDefault();
+    var href = $(this).attr('href');
+    $('html, body').animate({ 
+        scrollTop:$(href).offset().top
+        
+    },'slow');
+    closeMenu()
+
+});
+</script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+<script src="assets/components/menu/menu.js"></script>
+<script type="module">
+  // import { initializeApp } from "firebase/app";
+ const formMsg=document.querySelector('.formMsg')
+
+ 
+ const firebaseConfig = {
+      apiKey: "AIzaSyD2MRtSy_pVM-V7RSyJjLoQWTnLlSahKv4",
+      authDomain: "sitecontact-ac09d.firebaseapp.com",
+      projectId: "sitecontact-ac09d",
+      storageBucket: "sitecontact-ac09d.appspot.com",
+      messagingSenderId: "611875526528",
+      appId: "1:611875526528:web:20781c50abe3e6a6ccd365"
+    }; 
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig); 
+
+  // Initialize Cloud Firestore and get a reference to the service
+  const db = firebase.firestore();
+
+   
+ formMsg.addEventListener('submit',(event)=>{
+  console.log('submit')
+  
+  event.preventDefault() 
+ 
+
+  var datamsg=[{
+    nome:iname.value,
+    email:imail.value,
+    numero:iwhats.value,
+    mensagem:imsg.value
+  }] 
+
+
+  if(iname.value.length>0){
+    console.log('')
+  }
+ 
+  db.collection('mensagens').doc(relogio()).set({
+    nome:iname.value,
+    email:imail.value,
+    numero:iwhats.value,
+    mensagem:imsg.value
+  }) 
+  setTimeout(() => {
+    getAlertSend()
+  }, 2000);
+ })
+</script>
+</body>
 </html>
