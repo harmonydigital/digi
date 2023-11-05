@@ -35,8 +35,8 @@ initapp=()=>{
                     </div>
                     <ul>
                        
-                        <li class='iten-dropdown' >
-                           <a href=' javascript:void(0)'>Serviços</a>
+                        <li class='iten-dropdown' style='display:none' >
+                           <a href=' javascript:void(0)'>Serviçosa</a>
                            <div class='dropdown'>
                               <ul>
                                  <li>
@@ -374,6 +374,7 @@ initapp=()=>{
                          <!-- Swipesr -->
                          <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
+                              <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media10.png'></div>
                                <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/mentoria_cacino.png'></div>
                                <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media.png'></div>
                                <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media1.png'></div>
