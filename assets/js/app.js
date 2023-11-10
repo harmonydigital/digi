@@ -139,7 +139,34 @@ initapp=()=>{
                       <div class='slide' id='gallery'>
                          <div class="swiper tecnologia">
                             <div class="swiper-wrapper">
-                               <div class="swiper-slide">
+                               
+                            
+                            
+                            
+                            <div class="swiper-slide">
+                                  <div class='overlaygallery'>
+                                     <div class='text-content'>
+                                        <span>
+                                        <i class="fa-regular fa-heart"></i>
+                                        </span>
+                                        <div>
+                                           <h4>Web Site Prianti</h4>
+                                           <p>App Institucional com descrição dos serviços prestados.</p>
+                                           <a class='get-site' target='_blank' href='https://harmonydigital.github.io/ativacred/'>
+                                           visite este site
+                                           <i class="fa-solid fa-arrow-right"></i>
+                                           </a>
+                                        </div>
+                                        <span>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                        </span>
+                                     </div>
+                                  </div>
+                                  <img class='logo' src='assets/img/prianti.png'>
+                               </div>
+                            
+                            
+                            <div class="swiper-slide">
                                   <div class='overlaygallery'>
                                      <div class='text-content'>
                                         <span>
