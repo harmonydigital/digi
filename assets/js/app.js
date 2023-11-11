@@ -324,6 +324,27 @@ initapp=()=>{
                         <div class="swiper mySwiper">
                            <div class="swiper-wrapper">
 
+                           <div class="swiper-slide">
+                              <div class='overlaygallery'>
+                                    <div class='text-content'>
+                                    <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                    </span>
+                                    <div>
+                                          <h4>Brand Evolution</h4>
+                                          <p>Padrões de design de identidade visual da marca para Evolution.</p>
+                                          <a class='get-site' target='_blank' 
+                                             href='#'>visite este site
+                                          <i class="fa-solid fa-arrow-right"></i>
+                                          </a>
+                                    </div>
+                                    <span>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                    </span>
+                                    </div>
+                                 </div>
+                              <img class='logo' src='assets/img/produtos/brand/evolution.png'>
+                           </div>
 
                               <div class="swiper-slide">
                                  <div class='overlaygallery'>
