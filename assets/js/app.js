@@ -331,8 +331,8 @@ initapp=()=>{
                                     <i class="fa-regular fa-heart"></i>
                                     </span>
                                     <div>
-                                          <h4>Brand Evolution</h4>
-                                          <p>Padrões de design de identidade visual da marca para Evolution.</p>
+                                          <h4>Branding Evolution </h4>
+                                          <p> Conjunto publicitario da marca para Negócios.</p>
                                           <a class='get-site' target='_blank' 
                                              href='#'>visite este site
                                           <i class="fa-solid fa-arrow-right"></i>
@@ -375,7 +375,7 @@ initapp=()=>{
                                          <i class="fa-regular fa-heart"></i>
                                          </span>
                                          <div>
-                                             <h4>Brand TUDOPRAELA.COM.BR</h4>
+                                             <h4>Branding TUDOPRAELA.COM.BR</h4>
                                              <p>Padrões de design de marca para e-commerce Tudo pra ela.</p>
                                              <a class='get-site' target='_blank' 
                                                  href='https://tudopraela.infinityfreeapp.com/'>visite este site
