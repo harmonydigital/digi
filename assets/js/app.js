@@ -332,7 +332,7 @@ initapp=()=>{
                                     </span>
                                     <div>
                                           <h4>Branding Evolution </h4>
-                                          <p> Conjunto publicitario da marca para Negócios.</p>
+                                          <p> Conjunto publicitário da marca para Negócios.</p>
                                           <a class='get-site' target='_blank' 
                                              href='#'>visite este site
                                           <i class="fa-solid fa-arrow-right"></i>
