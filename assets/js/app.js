@@ -98,31 +98,67 @@ initapp=()=>{
 
 
                 </div>
-
-                <div class='harmonyabout' id='about'>
-                    <div class='container-flex'>
-                        <div class='content-text'>
-                        <span class='title'></span>
-                        <h2>produtos
-                        para pessoas,
-                        como eu e você.</h2>
-                        <a class='anchor btn primary convert-btn h-xs' href='#about'>
-                        <span>Fale comigo</span>
-                                <i class="fa-brands fa-whatsapp"></i>
-                            </a>
-                        </div>
-
-                        <div>
-                            <p>Harmony se traduz na eficiente interação entre produtos e pessoas.
-                            </br></br>Somos a estreita relação do homem e tecnologia, amamos criar soluções reais para tornar a vida de pessoas ainda
-                            melhor.
-                            </br></br>Unimos um grupo de profissionais do Design, para conversas sobre o comportamento humano e como a interação de alguns produtos podem ser tão relevantes, assim projetar novos modelos e testar novas soluções.
-                            </br></br>Aqui tudo começa na relação de pessoa para pessoa, criamos uma conexão com o interlocutor e então podemos entender como o Design pode solucionar e otimizar nossa vida enquanto seres humanos.
-                            Veja o que fizemos até aqui, e crie algo novo você também..</p>
-                        </div>
-                  
-                    </div>
+                <div class="details">
+ 
+                <div class="content-text">
+                    <span class="title"></span>
+                    <h2>Produtos que resolvem.</h2>
                 </div>
+              <div class="container-flex">
+            
+                    <div class="">
+                        <img src='assets/img/cover2.png'> 
+                    </div>
+            
+                    <div class="">
+                        <div class="card-container">
+                            <!-- CARD' -->
+                            <div class="card" style='background-color:#D2FCFF'>
+                                <div class="card-header">
+                                <i class="fa-solid fa-microchip"></i> Landing Pages
+                                </div>
+                                <div class="card-body">
+                                <p>
+                                    Paginas inteligentes prometem fluxos de tarefas para ajuda-lo com seus leads. 
+                                </p>
+                                </div>
+                            </div>
+                            <!-- CARD' -->
+                            <div class="card">
+                                <div class="card-header">
+                                <i class="fa-solid fa-microchip"></i> E-commerce
+                                </div>
+                                <div class="card-body">
+                                <p>Faça a gestão de produtos, transações de pagamentos sem mensalidades. </p>
+                                </div>
+                            </div>
+                            <!-- CARD' -->
+                            <div class="card">
+                                <div class="card-header">
+                                <i class="fa-solid fa-microchip"></i> Branding
+                                </div>
+                                <div class="card-body">
+                                <p>Criamos seu conjunto de comunição, inclusive logo marca, tipografia e padrões de cores originais. </p>
+                                </div>
+                            </div>
+                         
+                        </div>
+                       
+                    </div>
+
+
+                   
+                </div>
+                <div style="
+                margin: 0 auto 50px;
+                display: flex;
+            ">
+                <a class="  btn primary convert-btn " href="#contact">
+                   <span>Conte sua história</span>
+                   </a>
+             </div>
+              
+            </div>
 
                 <div class='portfolio' id='portfolio'>
                 <div class='text-content'>
@@ -442,6 +478,40 @@ initapp=()=>{
 
                     
                </div>
+
+             
+
+
+
+                   
+                <div class='harmonyabout' id='about'>
+                <div class='container-flex'>
+                    <div class='content-text'>
+                    <span class='title'></span>
+                    <h2>produtos
+                    para pessoas,
+                    como eu e você.</h2>
+                    <a class='anchor btn primary convert-btn h-xs' href='#about'>
+                    <span>Fale comigo</span>
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+
+                    <div>
+                        <p>Harmony se traduz na eficiente interação entre produtos e pessoas.
+                        </br></br>Somos a estreita relação do homem e tecnologia, amamos criar soluções reais para tornar a vida de pessoas ainda
+                        melhor.
+                        </br></br>Unimos um grupo de profissionais do Design, para conversas sobre o comportamento humano e como a interação de alguns produtos podem ser tão relevantes, assim projetar novos modelos e testar novas soluções.
+                        </br></br>Aqui tudo começa na relação de pessoa para pessoa, criamos uma conexão com o interlocutor e então podemos entender como o Design pode solucionar e otimizar nossa vida enquanto seres humanos.
+                        Veja o que fizemos até aqui, e crie algo novo você também..</p>
+                    </div>
+              
+                </div>
+            </div>
+           
+                 </div>
+               </div>
+             </div>
         </main>
 
     `

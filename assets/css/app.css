@@ -5,8 +5,42 @@
     font-family: 'Montserrat', sans-serif;
 
     
-}
 
+}
+.details .card p {
+    font-size: .9rem;
+    color: #5c5d6f;
+}
+.card-header {
+    font-weight: 600;
+    color: #2b61ff;
+}
+div#contact {
+    display: none;
+}
+img {
+    max-width: 95%;
+    margin: 0 auto;
+}
+.details {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.card-container .card {
+    margin: 5px;
+    background: white;
+    padding:15px;
+    border-radius: 15px;
+    max-width: 90%;
+}
+.content-text {
+    position: relative;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 
@@ -335,8 +369,12 @@ a.btn-sucess svg {
     .h-xs{
         display: none !important;
     }
-    .content-text {
+    .display .content-text {
         padding: 170px 5px 0;
+        position: relative;
+    }
+    .content-text {
+     
         position: relative;
     }
     span.title::before {
@@ -352,6 +390,25 @@ a.btn-sucess svg {
     }
 }
 @media(min-width:768px){
+    .details{
+        height: 90vh;
+    }
+    .details .container-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .details .card{
+        max-width: 34%;
+
+    }
+    .details .container-flex > div:first-child {
+        width: 45%;
+        margin-right: 30px;
+    }
+    .details .container-flex > div:last-child {
+        width: 45%;
+        margin-right: 80px;
+    }
     .cover {
         margin-bottom: 50px;
     }
@@ -428,6 +485,9 @@ a.btn-sucess svg {
 }
 
 @media(min-width:1200px){
+    .details .card {
+        max-width: 40%;
+    }
     .display .content-text h2 {
         width: 340px;
         margin: 90px auto 0;
@@ -457,21 +517,18 @@ a.btn-sucess svg {
         padding: 0 0;
         margin: 0;
     }
-    /* .harmonyabout .content-text {
-        
-        width: 20%;
-    }
-    .harmonyabout p{
-        width: 50%;
-    } */
+    
     .footer-logo {
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
     }
-    
-    .harmonyabout h2,h3 {
+    .details {
+        height: 100vh;
+        padding: 20px;
+        margin: 40px auto;}
+    .details h2,.harmonyabout h2,h3 {
         line-height: 1; 
         font-size: 4.5rem !important;
         letter-spacing: -5px;
@@ -497,6 +554,10 @@ a.btn-sucess svg {
     .content-text {
         padding: 15% 0 0;
     }
+    .details .content-text {
+        padding: 5% 0 ;
+        display: flex;
+    }
     .display h1 {
         font-size: 2.3rem;
         letter-spacing: 15px;
@@ -514,6 +575,6 @@ a.btn-sucess svg {
         margin: 0 auto;
     }
     .menu {
-        width: 60%;
+        width: 45%;
     }
 }
