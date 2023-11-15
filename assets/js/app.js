@@ -47,14 +47,15 @@ initapp=()=>{
                            </div>
                         </li>
                         <li>
+                           <a href='#details'>Serviços</a>
+                        </li>
+                        <li>
                            <a href='#portfolio'>Galeria</a>
                         </li>
                         <li>
                             <a href='#about'>Sobre</a>
                         </li>
-                        <li>
-                            <a href='#contact'>E-mail</a>
-                        </li>
+                       
                         <li>
                             <a class='btn primary convert-btn' href="">
                                 <span>Fale comigo</span>
@@ -79,7 +80,7 @@ initapp=()=>{
                             <span class='title'>Harmony</span>
                             <h1>Visível, leve e intuitivo.</h1>
                             <h2>ative a criatividade, comece algo novo</br>  agora mesmo...</h2>
-                            <a class='btn-down' href='#about'>
+                            <a class='btn-down' href='#details'>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </a>
                         </div>
@@ -98,15 +99,17 @@ initapp=()=>{
 
 
                 </div>
-                <div class="details">
+                <div class="details" id='details'>
  
-                <div class="content-text">
-                    <span class="title"></span>
-                    <h2>Produtos que resolvem.</h2>
-                </div>
-              <div class="container-flex">
+                  <div class="container-flex">
             
                     <div class="">
+                    
+                     <div class="content-text">
+                        <span class="title"></span>
+                        <h2>Produtos que resolvem.</h2>
+                     </div>
+
                         <img src='assets/img/cover2.png'> 
                     </div>
             
@@ -119,7 +122,7 @@ initapp=()=>{
                                 </div>
                                 <div class="card-body">
                                 <p>
-                                    Paginas inteligentes prometem fluxos de tarefas para ajuda-lo com seus leads. 
+                                    Paginas inteligentes prometem cumprir tarefas e ajuda-lo com seus leads. 
                                 </p>
                                 </div>
                             </div>
@@ -141,6 +144,17 @@ initapp=()=>{
                                 <p>Criamos seu conjunto de comunição, inclusive logo marca, tipografia e padrões de cores originais. </p>
                                 </div>
                             </div>
+                            <!-- CARD' -->
+                            <div class="card">
+                                <div class="card-header">
+                                <i class="fa-solid fa-microchip"></i>Mídias sociais
+                                </div>
+                                <div class="card-body">
+                                <p>Crie seu cronograma de marketing digital, mantenha frequencia com Design original. </p>
+                                </div>
+                            </div>
+
+                            
                          
                         </div>
                        
@@ -150,7 +164,7 @@ initapp=()=>{
                    
                 </div>
                 <div style="
-                margin: 0 auto 50px;
+                margin: 0 auto ;
                 display: flex;
             ">
                 <a class="  btn primary convert-btn " href="#contact">
