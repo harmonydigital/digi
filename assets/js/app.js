@@ -141,7 +141,7 @@ initapp=()=>{
                                 <i class="fa-solid fa-microchip"></i> Branding
                                 </div>
                                 <div class="card-body">
-                                <p>Criamos seu conjunto de comunição, inclusive logo marca, tipografia e padrões de cores originais. </p>
+                                <p>Seu material de comunicação, inclusive logo marca, tipografia e padrões de cores originais. </p>
                                 </div>
                             </div>
                             <!-- CARD' -->
@@ -163,8 +163,7 @@ initapp=()=>{
 
                    
                 </div>
-                <div style="
-                margin: 0 auto ;
+                <div style="  margin: 0 auto ;
                 display: flex;
             ">
                 <a class="  btn primary convert-btn " href="#contact">
