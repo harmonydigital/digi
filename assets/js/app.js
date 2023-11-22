@@ -126,6 +126,7 @@ initapp=()=>{
                                 </p>
                                 </div>
                             </div>
+
                             <!-- CARD' -->
                             <div class="card">
                                 <div class="card-header">
@@ -215,27 +216,7 @@ initapp=()=>{
                                </div>
                             
                             
-                            <div class="swiper-slide">
-                                  <div class='overlaygallery'>
-                                     <div class='text-content'>
-                                        <span>
-                                        <i class="fa-regular fa-heart"></i>
-                                        </span>
-                                        <div>
-                                           <h4>Web Site Intellectex</h4>
-                                           <p>App Institucional com descrição dos serviços prestados.</p>
-                                           <a class='get-site' target='_blank' href='https://intellectx.com.br/'>
-                                           visite este site
-                                           <i class="fa-solid fa-arrow-right"></i>
-                                           </a>
-                                        </div>
-                                        <span>
-                                        <i class="fa-solid fa-chevron-down"></i>
-                                        </span>
-                                     </div>
-                                  </div>
-                                  <img class='logo' src='assets/img/intellectex.png'>
-                               </div>
+                           
                                <div class="swiper-slide">
                                   <div class='overlaygallery'>
                                      <div class='text-content'>
