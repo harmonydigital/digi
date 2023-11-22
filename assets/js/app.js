@@ -215,7 +215,27 @@ initapp=()=>{
                                   <img class='logo' src='assets/img/prianti.png'>
                                </div>
                             
-                            
+                               <div class="swiper-slide">
+                               <div class='overlaygallery'>
+                                  <div class='text-content'>
+                                     <span>
+                                     <i class="fa-regular fa-heart"></i>
+                                     </span>
+                                     <div>
+                                        <h4>E-commerce Tudo Praela</h4>
+                                        <p>Loja Woocommerce integração de pagamentos e calculo de frete.</p>
+                                        <a class='get-site' target='_blank' 
+                                           href='https://tudopraela.infinityfreeapp.com/'>visite este site
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                     </div>
+                                     <span>
+                                     <i class="fa-solid fa-chevron-down"></i>
+                                     </span>
+                                  </div>
+                               </div>
+                               <img class='logo' src='assets/img/magicjourney.png'>
+                            </div>
                            
                                <div class="swiper-slide">
                                   <div class='overlaygallery'>
