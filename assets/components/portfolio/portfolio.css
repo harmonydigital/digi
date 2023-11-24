@@ -1,9 +1,15 @@
 .portfolio {
     background: #e5e5e5;
     margin: 0 0;
+    padding: 20px 0;
 }
 
-.portfolio .text-content h3 {
+.text-content {
+    margin: 35px auto;
+
+}
+
+ .text-content h3 {
     padding: 35px 3px;
     font-size: 2rem;
     text-align: center;

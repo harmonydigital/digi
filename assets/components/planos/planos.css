@@ -1,0 +1,73 @@
+#planos{
+padding: 20px 0;
+}
+div#planos .card {
+    cursor: pointer;
+    transition: .2s;
+
+}
+div#planos .card:hover {
+ background-color: #d5eaff;
+ transition: .2s;
+}
+
+div#planos .card h3 {
+    text-align: center;
+    color: black;
+    font-size: 1.3rem !important;
+    margin: 10px auto;
+    letter-spacing: normal  !important;
+}
+.card-header svg {
+    margin-right: 5px;
+}
+.card-price {
+    color: #0054D2;
+    font-weight: 700;
+    justify-content: center;
+    font-size: 1.8rem;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    margin: 15px auto;}
+.card-price > span:first-child,.card-price > span:last-child{
+    
+    color: #0054D2;
+    font-weight: 700;
+    font-size: .8rem;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+ 
+}
+.plansHighlights p {
+    margin: 5px auto;
+    font-size: .8rem;
+}
+.card-footer button {
+    width: 100%;
+    max-width: 150px;
+    margin: 15px auto 10px;
+    background: blue;
+    color: white;
+    border: 0;
+    height: 35px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .6rem;
+}
+
+@media (min-width:768px) {
+    #planos .tabs-portfolio {
+        display: flex;
+        justify-content: center;
+    }
+    .tabscontain {
+        margin: 50px auto 0;
+    }
+}

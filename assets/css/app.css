@@ -7,6 +7,16 @@
     
 
 }
+h2, h3 {
+    font-size: 2rem;
+    line-height: 0.9;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+div#details img {
+    margin: 48px auto 0;
+}
 .details .card p {
     font-size: .9rem;
     color: #5c5d6f;
@@ -21,6 +31,11 @@ div#contact {
 img {
     max-width: 95%;
     margin: 0 auto;
+}
+.display h2 {
+    font-size: .8rem !important;
+    letter-spacing: 1px;
+    line-height: 17px !important;
 }
 .details {
     max-width: 90%;
@@ -40,6 +55,8 @@ img {
 .card-container {
     display: flex;
     flex-wrap: wrap;
+    margin: 25px auto;
+    justify-content: center;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -111,8 +128,9 @@ header {
 header div {
     margin: 20px;
 }
+
 main a.btn.primary {
-    margin: 35px auto 0;
+    margin: 35px auto;
 }
 .controls {
     display: flex;
@@ -282,7 +300,7 @@ a.btn.primary:hover {
     text-align: center;
     background: transparent;
     width: 240px;
-    margin: 6rem auto 0;
+    margin: 15rem auto 0;
     font-size: 1rem;
     
 }
@@ -304,26 +322,12 @@ span.title::before {
     position: absolute;
     left: 50%;
 }
-.harmonyabout h2 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: 900;
-    line-height: .9;
-    text-align: left;
-}
+ 
 .harmonyabout {
     width: 85%;
-    position: relative;
- 
+    position: relative; 
     margin: 0 auto 90px;
-}
-.harmonyabout span.title::before {
-    left: inherit;
-    right: 0;
-    bottom: 50px;
-    z-index: 0;
-}
-
+} 
 
 p {
     margin: 30px auto;
@@ -365,6 +369,11 @@ a.btn-sucess svg {
     }
 }
 @media(max-width:767px){
+
+    div#details img {  
+        max-width: 300px;
+        display: block;
+    }
    
     .h-xs{
         display: none !important;
@@ -373,14 +382,10 @@ a.btn-sucess svg {
         padding: 170px 5px 0;
         position: relative;
     }
-    .content-text {
-     
-        position: relative;
-    }
+    
     span.title::before {
         left: inherit;
-        right: 0px;
-        bottom: 170px;
+        right: 0px; 
         z-index: 0;
     }
     .display h1 {
@@ -391,10 +396,7 @@ a.btn-sucess svg {
 }
 @media(min-width:768px){
     
-    .details .container-flex {
-        display: flex;
-        justify-content: space-between;
-    }
+   
     .details .card{
         max-width: 34%;
 
@@ -484,6 +486,10 @@ a.btn-sucess svg {
 }
 
 @media(min-width:1200px){
+    div#about h3 {
+        text-align: left;
+        margin-right: 20px;
+    }
     .details .card {
         max-width: 40%;
     }
@@ -527,10 +533,16 @@ a.btn-sucess svg {
      
         padding: 20px;
         margin: 40px auto;}
-    .details h2,.harmonyabout h2,h3 {
+    h2,h3 {
      font-size: 4.4rem !important;
     letter-spacing: -8px;
     line-height: 56px !important;
+    text-align: center;
+    text-transform: uppercase;
+ 
+    }
+    #planos h2,h3 {
+        font-weight: 900;
     }
     .harmonyabout p {
         width: 100%;
@@ -573,6 +585,6 @@ a.btn-sucess svg {
         margin: 0 auto;
     }
     .menu {
-        width: 45%;
+        width:50%;
     }
 }

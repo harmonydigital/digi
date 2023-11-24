@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="assets/components/modal/modal.css">
     <link rel="stylesheet" href="assets/components/portfolio/portfolio.css">
     <link rel="stylesheet" href="assets/components/movie/movie.css">
+    <link rel="stylesheet" href="assets/components/planos/planos.css">
+
     <link rel="stylesheet" href="assets/components/contact/contact.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="">
@@ -34,6 +36,7 @@
 
 
     <div id="app"></div>
+
     <div class='contact' id='contact'>
       <div id='returnSend'>
         <div class="container">
@@ -103,12 +106,15 @@
 
           <div class="nav-f">
             <ul>
-              <li>
+              <li >
                   <a href='#details'>Serviços</a>
               </li>
               <li>
                 <a href='#portfolio'>Galeria</a>
               </li> 
+              <li style='display:none'>
+                <a href='#plans'>Planos</a>
+              </li>
               <li>
                 <a href='#about'>Sobre</a>
               </li>
@@ -177,8 +183,7 @@
           delay: 3000,
           disableOnInteraction: false,
         },
-      loop: true,
-
+      loop: true, 
       pagination: {
         el: ".swiper-pagination",
         clickable: true,  
@@ -200,10 +205,10 @@
     var swiper = new Swiper(".tecnologia", {
       loop: true,
      spaceBetween: 30,
-    //  autoplay: {
-    //      delay: 3000,
-    //      disableOnInteraction: false,
-    //    },
+     autoplay: {
+         delay: 3000,
+         disableOnInteraction: false,
+       },
      pagination: {
        el: ".swiper-pagination",
        clickable: true,  
@@ -238,7 +243,6 @@ jQuery('a[href^=#]').on('click', function(e){
 </script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
-
 <script src="assets/components/menu/menu.js"></script>
 <script type="module">
   // import { initializeApp } from "firebase/app";
@@ -290,5 +294,6 @@ jQuery('a[href^=#]').on('click', function(e){
   }, 2000);
  })
 </script>
+<script src="assets/components/planos/planos.js"></script>
 </body>
 </html>
