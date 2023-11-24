@@ -204,7 +204,7 @@ initapp=()=>{
                                  <h4>Magic Journey</h4>
                                  <p>Loja Woocommerce integração de pagamentos e calculo de frete.</p>
                                  <a class='get-site' target='_blank' 
-                                    href='https://tudopraela.infinityfreeapp.com/'>visite este site
+                                    href='https://magicjourney.rf.gd/'>visite este site
                                  <i class="fa-solid fa-arrow-right"></i>
                                  </a>
                               </div>
